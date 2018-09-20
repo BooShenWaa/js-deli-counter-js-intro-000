@@ -7,15 +7,22 @@ function takeANumber(people, name) {
 }
 
 function nowServing(katzDeliLine) {
+<<<<<<< HEAD
 
   if (katzDeliLine.length > 0) {
     var name = katzDeliLine[0]
     katzDeliLine.shift()
     return "Currently serving " + name + "."
+=======
+  if (katzDeliLine.length > 0) {
+    return katzDeliLine[0]
+    katzDeliLine.shift()
+>>>>>>> d3e8d7d805d032eb099127ba8b8bda17147c8694
   }
   else {
     return "There is nobody waiting to be served!"
   }
+<<<<<<< HEAD
 }
 
 function currentLine(line) {
@@ -33,4 +40,7 @@ function currentLine(line) {
     }
   return list + array
   }
+=======
+
+>>>>>>> d3e8d7d805d032eb099127ba8b8bda17147c8694
 }
